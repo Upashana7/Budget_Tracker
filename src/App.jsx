@@ -1,6 +1,5 @@
 import BalanceSummary from "./components/BalanceSummary";
 import TransactionList from "./components/TransactionList";
-import TransMission from "./components/TransMission";
 
 export default function App() {
   return (
@@ -10,8 +9,6 @@ export default function App() {
       <BalanceSummary />
 
       <TransactionList />
-
-      <TransMission />
     </div>
   );
 }
